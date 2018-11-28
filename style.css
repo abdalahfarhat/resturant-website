@@ -97,8 +97,12 @@ h1 {
 .copy {
   width: 70%;
   margin-left: 15%;
+  margin-bottom: 5%;
 }
 
+.text-center {
+  color: #e67e22;
+}
 h3::after {
   width: 100px;
   height: 2px;
@@ -115,5 +119,13 @@ h3::after {
 }
 
 .arranging {
+  margin: 20px;
+  padding: 10px;
   text-align: left;
+  border: 1px solid #e67e22;
+}
+
+.container h4 {
+  color: #e67e22;
+  text-align: center;
 }
