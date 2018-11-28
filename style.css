@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/appetizer-avocado-bread-566566.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+}
+
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 90px;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.main-nav li a:hover {
+  color: #e67e22;
+  border-bottom: 1px solid #e67e22;
+  transition: all 0.5s ease-in;
+  padding: 15px 0;
+}
+
+.main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.logo img {
+  height: 150px;
+  float: left;
+  margin-top: 5px;
+}
+
+.btn {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.btn-half {
+  background-color: #e67e22;
+  color: white;
+}
+
+.btn-half:hover {
+  opacity: 0.7;
+  border: 1px solid #e67e22;
+  transition: all 0.2s ease-in;
+}
+
+.btn-full:hover {
+  background-color: #e67e22;
+  color: white;
+  transition: all 0.5s ease-in;
+}
