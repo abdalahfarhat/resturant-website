@@ -237,3 +237,28 @@ h3::after {
 .cities i {
   color: #e67e22;
 }
+
+.testimonials {
+  margin-top: 50px;
+}
+
+.person {
+  height: 200px;
+  border: 2px solid #e67e22;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.person:hover {
+  opacity: 0.6;
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+blockquote {
+  border-left: 6px solid #e67e22;
+  margin-right: 20px;
+}
+
+blockquote p {
+  padding: 40px;
+}
