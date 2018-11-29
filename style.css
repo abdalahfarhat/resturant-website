@@ -205,3 +205,35 @@ h3::after {
 .mobile {
   margin-top: 60px;
 }
+
+.works-step a:hover {
+  opacity: 0.7;
+}
+
+.cities {
+  margin-top: 100px;
+}
+
+.cities img {
+  height: 250px;
+  width: 250px;
+  margin-top: 50px;
+  border: 2px solid #e67e22;
+  border-radius: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.cities img:hover {
+  opacity: 0.6;
+  border: 2px solid #0fc7d4;
+  transform: scale(1.15);
+  transition: all 0.5s;
+}
+
+.cities h4 {
+  margin-top: 20px;
+}
+
+.cities i {
+  color: #e67e22;
+}
