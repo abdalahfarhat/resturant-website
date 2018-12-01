@@ -31,6 +31,7 @@ header {
 }
 
 h1 {
+  display: grid;
   color: white;
 }
 
@@ -164,6 +165,7 @@ h3::after {
 }
 
 .pic img {
+  display: grid;
   margin-top: 50px;
   margin-right: 200px;
   float: right;
@@ -173,6 +175,7 @@ h3::after {
 }
 
 .works-step {
+  display: grid;
   margin-top: 50px;
 }
 
@@ -239,10 +242,17 @@ h3::after {
 }
 
 .testimonials {
-  margin-top: 50px;
+  margin-top: 80px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/close-up-cucumber-cuisine-1440119.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .person {
+  display: grid;
   height: 200px;
   border: 2px solid #e67e22;
   border-radius: 50px;
@@ -255,10 +265,47 @@ h3::after {
   transition: all 0.5s;
 }
 blockquote {
+  display: grid;
   border-left: 6px solid #e67e22;
   margin-right: 20px;
 }
 
 blockquote p {
+  margin-top: 20px;
   padding: 40px;
+  color: aliceblue;
+}
+
+.fa-3x {
+  color: #e67e22;
+  margin-left: 20px;
+}
+
+.btn-block {
+  background-color: #e67e22;
+  color: aliceblue;
+  margin-top: 20px;
+}
+
+.gap {
+  margin-top: 40px;
+}
+
+.form {
+  margin-top: 60px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 80px;
+  color: #e67e22;
+  padding: 0.5rem 2rem;
+  border: 1px #e67e22 solid;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+footer:hover {
+  border: 1px #0fc7d4 solid;
+  background: #ccc;
 }
